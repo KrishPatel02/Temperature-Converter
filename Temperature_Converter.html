@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Temperature_Converter.css" />
+  </head>
+
+  <body>
+    <div class="temperaturesec">
+      <div class="part-1">
+        <label for="tempid">Please enter the Temperature</label>
+        <input class="temp" type="number" id="tempid" name="temp" />
+        <button class="resetsec" id="resetsecid">Reset</button>
+      </div>
+      <div class="part-2">
+        <select class="tempdiff" id="tempdiffid_1" name="tempdiff">
+          <option value="cel">Celsius</option>
+          <option value="fahren">Fahrenheit</option>
+          <option value="kel">Kelvin</option>
+        </select>
+        <h1>To</h1>
+        <select class="tempdiff" id="tempdiffid_2" name="tempdiff">
+          <option value="cel">Celsius</option>
+          <option value="fahren" selected>Fahrenheit</option>
+          <option value="kel">Kelvin</option>
+        </select>
+      </div>
+      <div class="part-3">
+        <button class="submitsec">Submit</button>
+      </div>
+      <div class="part-4">
+        <span class="resultContainersec" id="resultContainer"></span>
+      </div>
+    </div>
+    <script src="Temperature_Converter.js"></script>
+  </body>
+</html>
