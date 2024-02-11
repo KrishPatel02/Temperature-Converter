@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: bold !important;
+  font-size: 1.1em;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to top left, #0d83e445, #d2641b3f);
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.temperaturesec {
+  background: linear-gradient(to top left, #0d83e4, #d2641b);
+  width: 50vw;
+  height: 50vh;
+  border-radius: 0.5em;
+  margin: auto;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.part-1,
+.part-2,
+.part-3,
+.part-4 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.temp,
+.tempdiff,
+.tempdiff option,
+.submitsec,
+.resetsec {
+  padding: 0.1em;
+  border-radius: 0.2em;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(to top left, #c5e0f561, #f4d9c6);
+}
+.temp {
+  width: 25%;
+}
+
+.resetsec {
+  width: 10%;
+}
+
+.part-4 {
+  padding: 0.01em;
+  border-radius: 0.2em;
+  background: linear-gradient(to top left, #c5e0f561, #f4d9c6);
+}
